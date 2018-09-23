@@ -24,7 +24,7 @@ echo $(date) " - Register host with Cloud Access Subscription"
 subscription-manager register --username="$USERNAME_ORG" --password="$PASSWORD_ACT_KEY"
 RETCODE=$?
 
-if [ $RETCODE -eq 0 ]
+#if [ $RETCODE -eq 0 ]
 #then
 #    echo "Subscribed successfully"
 #elif [ $RETCODE -eq 64 ]
